@@ -1,1 +1,1 @@
-# dicee
+# diceGame
