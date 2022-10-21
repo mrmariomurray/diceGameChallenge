@@ -10,6 +10,11 @@
 
 }
 
+.rollButton {
+  margin-top: 2rem;
+  font-size: 3rem;
+}
+
 body {
   background-color: #393E46;
 }
