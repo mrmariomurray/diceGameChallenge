@@ -6,8 +6,6 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
-console.log(getRandomInt());
-
 // FUNCTION TO ROLL DICE
 function diceRoll() {
     const diceOne = document.querySelector('.img1').setAttribute('src', `images/dice${getRandomInt()}\.png`);
@@ -37,6 +35,10 @@ function diceRoll() {
     
 }
 
+// FUNCTION TO PLAY SOUND ON BUTTON CLICK
+function diceAudio(url) {
+  new Audio('sounds/diceRollSound.mp3').play();
+}
 // SIMPLIFYING THE DICE EVALUATION
 // function diceRollBuild(a,b) {
 //     const dob = getRandomInt();
